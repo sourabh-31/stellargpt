@@ -2,7 +2,7 @@ import logo from "../../../assets/logo.svg";
 
 const NavBar = () => {
   return (
-    <section className="absolute bg-navBarBg flex w-10/12 justify-between left-0 right-0 mx-auto p-5 rounded-full mt-7">
+    <section className="absolute bg-navBarBg flex w-10/12 justify-between left-0 right-0 mx-auto p-5 rounded-full mt-7 border border-footerBorder border-solid">
       <div className="flex items-center gap-2 ml-3">
         <img src={logo} alt="logo" />
         <div className="text-white font-lexend text-2xl">
@@ -28,7 +28,7 @@ const NavBar = () => {
         <button className="text-white font-lexend text-lg hover:bg-hoverBg  px-7 py-4 rounded-full">
           Sign Up
         </button>
-        <button className="text-white font-lexend text-lg bg-customBlue px-7 py-4 rounded-full">
+        <button className=" font-lexend text-lg bg-customBlue px-7 py-4 rounded-full">
           Login
         </button>
       </div>

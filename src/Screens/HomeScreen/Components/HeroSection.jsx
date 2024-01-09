@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="h-screen bg-black bg-heroGradient">
       {/* Heading */}
-      <div className="absolute left-44 top-56">
+      <div className="absolute left-44 top-60">
         <h1 className=" md-text-100 font-lexend font-semibold leading-normal text-white w-8/12 text-heroText">
           The Stellar Developer Co-pilot.
         </h1>
